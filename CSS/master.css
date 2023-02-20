@@ -1,0 +1,68 @@
+/* Start Variables */
+:root {
+    --main-color : #1dbb8a;
+    --text-color: #fff;
+    --text-dark-color: rgba(255, 255, 255, 0.631);
+    --section-background-light : #1a1a1a;
+    --section-background : #111111;
+    --box_color: #0d0d0d;
+    --section-padding : 60px;
+    --main-trans : .3s;
+    --padding-top: 60px;
+    --padding-bottom: 60px;
+}
+/* End Variables */
+
+/* 1 - Start Global Styles */
+*, ::after, ::before {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px;
+    margin : 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+    margin : 0px;
+}
+.container {
+    padding-left: 15px;
+    padding-right : 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+}
+input:focus,
+textarea:focus  {
+    outline: none;
+}
+/* Small Screen */
+@media (min-width : 768px) {
+    .container {
+        width: 750px;
+    }
+}
+/* Medium Screen */
+@media (min-width : 992px) {
+    .container {
+        width:970px;
+    }
+}
+/* Large Screen */
+@media (min-width : 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* End Global Styles */
+
