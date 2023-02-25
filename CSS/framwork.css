@@ -1,3 +1,14 @@
+/* Start Variables */
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+    --main-trans : .3s;
+}
+/* End Variables */
 /* Start Box */
 .d-flex {
     display: flex;
@@ -5,11 +16,25 @@
 .align-center {
     align-items: center;
 }
+.d-grid {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+@media (max-width: 768px) {
+    .block-mob {
+        display: block;
+    }
+}
 /* End Box */
 
 /* Start Padding, Margin */
 .p-10 {
     padding: 10px;
+}
+.p-15 {
+    padding: 15px;
 }
 .p-20 {
     padding: 20px;
@@ -41,6 +66,11 @@
 .fs-14 {
     font-size: 14px;
 }
+@media (max-width: 768px) {
+    .txt-c-mob {
+        text-align: center;
+    }
+}
 /* End Fonts */
 
 /* Start Borders */
@@ -51,4 +81,27 @@
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
 }
+.rad-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
 /* End Borders */
+
+
+/* Start Width, Height */
+.w-full {
+    width: 100%;
+}
+/* End Width, Height */
+
+
+/* Start Components */
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* End Components */
